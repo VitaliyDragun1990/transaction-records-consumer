@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "place": "A Place 1",
+      "amount": "10.01",
+      "currency": "UAH",
+      "card": "123456****1234",
+      "client": {
+        "firstName": "Ivan",
+        "lastName": "Ivanoff",
+        "middleName": "Ivanoff",
+        "inn": 1234567890
+      }
+    },
+    {
+      "place": "A Place 2",
+      "amount": "9876.01",
+      "currency": "UAH",
+      "card": "123456****1234",
+      "client": {
+        "firstName": "Ivan",
+        "lastName": "Ivanoff",
+        "middleName": "Ivanoff",
+        "inn": 1234567890
+      }
+    }
+  ]
+}
