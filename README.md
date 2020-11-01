@@ -14,17 +14,32 @@ from XML file and storing such records to a relational database.
  ### Building and running the application
  In order to build the application, open the app main directory in your terminal window, type in the following command 
  and hit "Enter" afterwards
+ ###### For Unix-like systems
  ````
-gradlew build
+./gradlew build
+````
+ ###### For Windows
+ ````
+.\gradlew build
 ````
 This command executes all tests, builds the application and creates executable jar file called
  **transaction-records-consumer.jar**
 
 In order to run the application, you can either use gradle by typing in the following command:
+ ###### For Unix-like systems
 ````
-gradlew bootRun
+./gradlew bootRun
+````
+ ###### For Windows
+````
+.\gradlew bootRun
 ````
 or you can run application's jar file directly using given command:
+ ###### For Unix-like systems
+````
+java -jar build/libs/transaction-records-consumer.jar
+````
+ ###### For Windows
 ````
 java -jar build\libs\transaction-records-consumer.jar
 ````
